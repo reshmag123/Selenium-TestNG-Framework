@@ -2,9 +2,6 @@
 
 <suite name="TestNG session test automation" verbose="1" >
 
-	<listeners>
-			<listener class-name="com.qafox.qa.ExtentReportListner.ExtentReportListener" />
-	</listeners>
 	  <test name="Different testing feature test" >
 	    <classes>
 	      <class name="com.qafox.qa.testcases.LoginPageTest" />
