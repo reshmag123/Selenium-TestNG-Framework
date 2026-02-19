@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG session test automation" verbose="1" >
+
+	<listeners>
+			<listener class-name="com.qafox.qa.ExtentReportListner.ExtentReportListener" />
+	</listeners>
+	  <test name="Different testing feature test" >
+	    <classes>
+	      <class name="com.qafox.qa.testcases.LoginPageTest" />
+	      <class name="com.qafox.qa.testcases.HomePageTest" />
+	      <class name="com.qafox.qa.testcases.LogoutPageTest" />
+	    </classes>
+	  </test>
+	</suite>
+
+
+<!-- This is the template to run all the test at once -->

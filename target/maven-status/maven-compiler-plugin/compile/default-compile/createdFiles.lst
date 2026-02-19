@@ -1,0 +1,10 @@
+com\qafox\qa\base\TestBase.class
+com\qafox\qa\pages\LoginPage.class
+com\qafox\qa\pages\HomePage.class
+com\qafox\qa\pages\LogoutPage.class
+com\qafox\qa\pages\WishListPage.class
+com\qafox\qa\pages\RegisterPage.class
+com\qafox\qa\pages\ShoppingCartPage.class
+com\qafox\qa\utils\TestUtil.class
+com\qafox\qa\utils\WebEventListener.class
+com\qafox\qa\pages\DeskTopPage.class
