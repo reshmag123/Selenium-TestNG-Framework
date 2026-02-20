@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qafox.qa.testcases.LogoutPageTest">
+      <class name="com.qafox.qa.testcases.LoginPageTest">
         <methods>
-          <include name="SetUp"/>
-          <include name="validateLogoutPageTitleTest"/>
+          <include name="LoginPageTitleTest"/>
           <include name="tearDown"/>
-          <include name="validateAccLogoutHeaderTest"/>
-          <include name="ClickOnLogoutContinueTest"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
         </methods>
-      </class> <!-- com.qafox.qa.testcases.LogoutPageTest -->
+      </class> <!-- com.qafox.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
